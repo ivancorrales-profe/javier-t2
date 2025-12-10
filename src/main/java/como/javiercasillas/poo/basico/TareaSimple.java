@@ -5,7 +5,8 @@ public class TareaSimple {
   //Atributos
   String titulo;
   boolean Completada;
-  
+  this.hora = LocalTime.now();
+ 
  
   public TareaSimple(String titulo, boolean completada) {
 	super();
