@@ -3,18 +3,18 @@ package com.javiercasillas.poo.redsocial;
 import java.time.LocalTime;
 
 public class Publicacion {
- //Atributos
-	
-	private String texocontenido;
-	private int numerodelikes;
-	LocalTime hora;
+    //Atributos
 
-//Contructor
-	public Publicacion (String contenido) {
-	this.hora = LocalTime.now();
-	this.texocontenido = texocontenido;
-	this.numerodelikes = 0;
-	
-}
+    LocalTime hora;
+    private String texocontenido;
+    private int numerodelikes;
+
+    //Contructor
+    public Publicacion(String contenido) {
+        this.hora = LocalTime.now();
+        this.texocontenido = contenido;
+        this.numerodelikes = 0;
+
+    }
 }
 
